@@ -1,0 +1,67 @@
+ <!-- POPOTES -->
+          <div class="row mt-5">
+
+
+            
+            <div class="col-sm-12 col-md-12 col-lg-6">
+
+              <h3 class="letter-spacing-1">POPOTES</h3>
+              <p class="mar-top-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem elit. Etiam cursus, nunc a maximus volutpat, ligula ex pellentesque enim, id gravida augue enim in libero.</p>
+
+              <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-5 mt-sm-2 mt-md-2 mt-lg-2" onclick="ShowModal('#PopoteModal1');">
+                  <div class="card scale-1-1" style="width: 100%;">
+                    <div class="card-body">
+
+                      <p class="text-color-accent letter-spacing-1">POPOTE 1</p>
+                      
+                      <p class="card-text text-color-green">$100.00 - $200.00</p>
+
+                      <p onclick="ShowModal('#PopoteModal1');" style="color: #007bff; cursor: pointer;" >Ver tamaños</p>
+
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-12 col-lg-7 mar-top-20 mt-sm-2 mt-md-2 mt-lg-5" onclick="ShowModal('#PopoteModal2');">
+                  <div class="card scale-1-1" style="width: 100%;">
+                    <div class="card-body">
+
+                      <p class="text-color-accent letter-spacing-1">POPOTE 2</p>
+
+                      <p class="card-text text-color-green">$100.00 - $200.00</p>
+
+                      <p onclick="ShowModal('#PopoteModal2');" style="color: #007bff; cursor: pointer;" >Ver tamaños</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-8 mar-top-20 mt-sm-2 mt-md-2 mt-lg-3" onclick="ShowModal('#PopoteModal3');">
+                  <div class="card scale-1-1" style="width: 100%;">
+
+                    <div class="card-body">
+                    
+                      <p class="text-color-accent letter-spacing-1">POPOTE 3</p>
+
+                      <p class="card-text text-color-green">$100.00 - $200.00</p>
+                      
+                      <p onclick="ShowModal('#PopoteModal3');"style="color: #007bff; cursor: pointer;">Ver tamaños</p>
+                    
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            
+              
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+
+              <img src="images\img-products-popotes.jpg" alt="POPOTES" id="img-products-popotes" class="mt-4 scale-1-1" width="70%"  onclick="ZoomImage('img-products-popotes');">
+
+            </div>   
+
+
+          </div>   
